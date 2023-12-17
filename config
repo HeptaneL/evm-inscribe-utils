@@ -1,0 +1,27 @@
+const config = {
+    repeatCount: 1,
+    increaseGas: 1.3,
+    sleepTime: 1000,
+    payPrice: "0",
+    privateKey: "",
+    receiveAddress: "0xc6e865c213c89ca42a622c5572d19f00d84d7a16",
+
+    //tokenJson: 'data:,{"p":"fair-20","op":"mint","tick":"fair","amt":"1000"}',
+	//tokenJson: data:,{"a":"NextInscription","p":"oprc-20","op":"mint","tick":"PoS","amt":"10"}
+    tokenJson: 'data:,{"p":"ierc-20","op":"deploy","tick":"combo","amt":"100000"}',
+
+    // eth =>  https://mainnet.infura.io/v3
+    // arb => https://arb1.arbitrum.io/rpc
+    // polygon => https://polygon-rpc.com
+    // op => https://mainnet.optimism.io
+    // linea => https://mainnet.infura.io/v3
+    // scroll => https://rpc.scroll.io
+    // zks => https://mainnet.era.zksync.io
+    // bnbchain => https://bsc-dataseed1.bnbchain.org
+    // conflux = > https://evm.confluxrpc.com
+
+    // rpcUrl: "https://arb1.arbitrum.io/rpc"
+    rpcUrl: "https://data-seed-prebsc-2-s1.bnbchain.org:8545"
+}
+
+module.exports = config
