@@ -4,11 +4,10 @@ const config = {
     sleepTime: 1000,
     payPrice: "0",
     privateKey: "",
-    receiveAddress: "0xc6e865c213c89ca42a622c5572d19f00d84d7a16",
+    receiveAddress: "",
 
-    //tokenJson: 'data:,{"p":"fair-20","op":"mint","tick":"fair","amt":"1000"}',
-	//tokenJson: data:,{"a":"NextInscription","p":"oprc-20","op":"mint","tick":"PoS","amt":"10"}
-    tokenJson: 'data:,{"p":"ierc-20","op":"deploy","tick":"combo","amt":"100000"}',
+    //tokenJson: 'data:,{"p":"ierc-20","op":"deploy","tick":"combo","amt":"100000"}',
+    tokenJson: 'data:,{"p":"ierc-20","op":"mint","tick":"combo","amt":"1000"}',
 
     // eth =>  https://mainnet.infura.io/v3
     // arb => https://arb1.arbitrum.io/rpc
